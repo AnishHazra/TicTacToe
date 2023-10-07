@@ -36,41 +36,39 @@ class _HomePageState extends State<HomePage> {
             children: [
               Expanded(
                 flex: 2,
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Text(
-                            "Player O",
-                            style: customFontWhite,
-                          ),
-                          Text(
-                            oScore.toString(),
-                            style: customFontWhite,
-                          )
-                        ],
-                      ),
-                      const SizedBox(
-                        width: 20,
-                      ),
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Text(
-                            "Player X",
-                            style: customFontWhite,
-                          ),
-                          Text(
-                            xScore.toString(),
-                            style: customFontWhite,
-                          )
-                        ],
-                      )
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Text(
+                          "Player O",
+                          style: customFontWhite,
+                        ),
+                        Text(
+                          oScore.toString(),
+                          style: customFontWhite,
+                        )
+                      ],
+                    ),
+                    const SizedBox(
+                      width: 20,
+                    ),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Text(
+                          "Player X",
+                          style: customFontWhite,
+                        ),
+                        Text(
+                          xScore.toString(),
+                          style: customFontWhite,
+                        )
+                      ],
+                    )
+                  ],
                 ),
               ),
               const SizedBox(
