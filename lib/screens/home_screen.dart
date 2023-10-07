@@ -13,8 +13,6 @@ class _HomePageState extends State<HomePage> {
   bool oTurn = true;
   List<String> displayXO = ['', '', '', '', '', '', '', '', ''];
   List<int> matchedIndexes = [];
-  // final xImg = Image.asset("assets/image/Player 1.png");
-  // final oImg = Image.asset("assets/image/Player 2.png");
   int oScore = 0;
   int xScore = 0;
   int filledBoxes = 0;
@@ -136,7 +134,7 @@ class _HomePageState extends State<HomePage> {
                           _clearBoard();
                         },
                         child: const Text(
-                          "Play Again!",
+                          "Reset!",
                           style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ),

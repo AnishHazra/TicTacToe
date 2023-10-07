@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tic_tac_toe/screens/splash_screen.dart';
-// import 'package:tic_tac_toe/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
